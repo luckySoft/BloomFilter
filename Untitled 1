@@ -1,0 +1,54 @@
+
+
+
+/*Generates digests based on the contents of an array of bytes and splits the result into 4-byte int's and store them in an array. The
+    * digest function is called until the required number of int's are produced. For each call to digest a salt
+    * is prepended to the data. The salt is increased by 1 for each call.
+    */
+// //problem
+		// double fb = Math.pow((1 - Math.exp(-4 * 0.0 / 64)), 4);
+		// BloomFilter<String> bf = new BloomFilter<>(63 / 9, 9, 4);
+		// System.out.println(bf.getBitPerElement());
+		// System.out.println(bf.getHashFunctionsCount());
+		// System.out.println(bf.elementsCount());
+		// System.out.println(bf.getFalsePositiveProbability() + " " + fb);
+		// fb = Math.pow(1 - Math.exp((-4.0D*(double)9)/(double)64), 4.0);
+		// System.out.println(bf.expectedFalsePositiveProbability()+ " " + fb);
+		//
+		//
+		// String e = "ev";
+		// // get ascii
+		// System.out.println(e.getBytes());
+		// byte[] by = e.getBytes();
+		// for (char c : e.toCharArray()) {
+		// System.out.println((int) c);
+		// System.out.println(by[0]);
+		// }
+		//
+		// final Random r = new Random();
+		// BitSet bs = new BitSet();
+		// for (int i = 0; i < 66; i++) {
+		// bs.set(i);
+		// }
+		// System.out.println(bs.size());
+		//
+		// BloomFilter<String> bf2 = new BloomFilter<>(5, 1000, 5);
+		// System.out.println(bf2.getBitPerElement());
+		// System.out.println(bf2.getFalsePositiveProbability());
+		// for (int i = 0; i < 1000; i++) {
+		// byte[] b = new byte[200];
+		// r.nextBytes(b);
+		// bf.add(new String(b));
+		// }
+		// System.out.println(bf.getFalsePositiveProbability());
+		// System.out.println(bf.getHashFunctionsCount());
+		// System.out.println(bf.getFalsePositiveProbability(50));
+		//
+		// BitSet bs1 = new BitSet(1);
+		// // bit na index 0
+		// System.out.println(bs1.get(0));
+		// bs1.set(1);
+		// // na golqmata poziciq na koqto sme pisali + 1
+		// System.out.println(bs1.length());
+		// // kolko bita imame
+		// System.out.println(bs1.size());
